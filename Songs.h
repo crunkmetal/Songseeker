@@ -1,3 +1,4 @@
+// preprocessor directives
 #pragma once
 #include <string>
 #include <vector>
@@ -6,39 +7,29 @@ using namespace std;
 
 class Songs
 {
-public:
-	vector<string> artistList;
+public:	// public access modifier
+	vector<string> artistList;				// public variable
 	
-	void getPlaylist();		
-	void extractArtists();	// list artists
-	void collateArtists();	// list artists
-	void removeRedund();	// list artists
-	void getArtists();		// list artists
-	void extractSongs();	// list songs
+	void getPlaylist();					// lists artist.song
+	void extractArtists();					// list artists
+	void collateArtists();					// list artists
+	void removeRedund();					// list artists
+	void getArtists();						// list artists
+	void extractSongs();					// list songs
 
-	void chooseArtist();	// find songs by artist
-	void findArtistSongs(string);	// find songs by artist
-	string getChosenArtist();
-	void setChosenArtist(string);
+	void chooseArtist();					// find songs by artist
+	void findArtistSongs(const string*);			// find songs by artist	*** const ptr parameter
+	string getChosenArtist();				// find songs by artist
+	void setChosenArtist(string);				// find songs by artist
 
-	void chooseSong();
-	void findSongs(string);
-	string getChosenSong();
-	void setChosenSong(string);
+	void chooseSong();					// find artist by song
+	void findSongs(const string*);				// find artist by song  *** const ptr parameter
+	string getChosenSong();					// find artist by song
+	void setChosenSong(string);				// find artist by song
 
 
-private:
+private: // private access modifier
 	string m_chosenArtist;
 	string m_chosenSong;
 	
 };
-
-/*
-	menu of choices
-				- list all songs(author.songname)		-> getPlaylist()
-				- list all authors(authors)
-				- list all songs(songnames)
-		- find songs by author(search for song, display author.songname)
-		- find author by song name(search for song name, display author.songname)
- */
-

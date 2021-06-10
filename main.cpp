@@ -1,50 +1,22 @@
-﻿#include <iostream>
-#include <fstream>
-
-
+// preprocessor directives
 #include "Intro.h"
-#include "Songs.h"
 #include "Branching.h"
-
+// using standard template library
 using namespace std;
-
-
-
+// the one and only main function, expects an int return value
 int main()
 {
-	Intro intro;	// instantiate an object of Intro Class
-	intro.intro();	// invoke function to display intro;
-	Branching direction;	// instantiating an object of Branching class
+	Intro intro;								// instantiate an object of Intro Class
+	intro.intro();								// invoke function to display intro;
+	Branching direction;							// instantiating an object of Branching class
 	
 	do
 	{
-		direction.choices();
-		// assigning the value of the result of function into a constant int variable
-		const int usersChoice = direction.getUserChoice();
-		// invoke a branching function using local parameter
-		direction.branchChoice(&usersChoice);
-		system("CLS");
-	} while ((direction.getUserChoice()) != 6);
+		direction.choices();						// invoking choices function from Branching class
+		const int usersChoice = direction.getUserChoice(); 		// assigning the value of the result of function into a constant int variable
+		direction.branchChoice(&usersChoice);				// invoke branchChoice function from Branching class (passing value by reference)
+		system("CLS");							// clear the console (WinOS specific)
+	} while ((direction.getUserChoice()) != 6);				// game loop continues unless user's choice is '6'
 
-    return 0;
+    return 0;									// returning int value to main
 }
-
-// pseudocode
-
-/*
-	- intro
-		- about
-		- menu of choices
-			- list all songs
-			- find songs by author
-			- find author by song name
-			- play a sound
-				- if X found
-				- if X not found
-			- rate the song (1-5 stars)
-
-	
- */
-
- // WinOS specific command to change CLI to read chinese characters
-	 // system("chcp 936");

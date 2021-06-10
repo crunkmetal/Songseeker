@@ -1,0 +1,3526 @@
+// JavaScript Document
+
+var playlist = [
+	{
+	sound: "cmn-016c8670.flac",
+	hanzi: "唯一的",
+	trans: "only",
+	pinyin: "Wéiyī de"
+	},
+	{
+	sound: "cmn-0187ac5b.flac",
+	hanzi: "酒",
+	trans: "liqueur",
+	pinyin: "jiǔ"
+	},
+	{
+	sound: "cmn-01cde6ca.flac",
+	hanzi: "星星",
+	trans: "star",
+	pinyin: "xīngxīng"
+	},
+	{
+	sound: "cmn-02145682.flac",
+	hanzi: "血",
+	trans: "blood",
+	pinyin: "xuè"
+	},
+	{
+	sound: "cmn-0323f1bb.flac",
+	hanzi: "法律",
+	trans: "legal",
+	pinyin: "fǎlǜ"
+	},
+	{
+	sound: "cmn-032a3e41.flac",
+	hanzi: "国家",
+	trans: "country",
+	pinyin: "guójiā"
+	},
+	{
+	sound: "cmn-03cd4a7c.flac",
+	hanzi: "发现",
+	trans: "find",
+	pinyin: "fāxiàn"
+	},
+	{
+	sound: "cmn-03f73677.flac",
+	hanzi: "现在",
+	trans: "just now",
+	pinyin: "xiànzài"
+	},
+	{
+	sound: "cmn-043246c4.flac",
+	hanzi: "自行车",
+	trans: "bicycle",
+	pinyin: "zìxíngchē"
+	},
+	{
+	sound: "cmn-05c912cf.flac",
+	hanzi: "很多",
+	trans: "a lot of",
+	pinyin: "hěnduō"
+	},
+	{
+	sound: "cmn-060a2f8c.flac",
+	hanzi: "开车",
+	trans: "Drive",
+	pinyin: "kāichē"
+	},
+	{
+	sound: "cmn-06e23c48.flac",
+	hanzi: "其他",
+	trans: "other",
+	pinyin: "qítā"
+	},
+	{
+	sound: "cmn-073d4744.flac",
+	hanzi: "勺子",
+	trans: "spoon",
+	pinyin: "sháozi"
+	},
+	{
+	sound: "cmn-079d4205.flac",
+	hanzi: "空",
+	trans: "air",
+	pinyin: "kōng"
+	},
+	{
+	sound: "cmn-07f288e9.flac",
+	hanzi: "历史",
+	trans: "history",
+	pinyin: "lìshǐ"
+	},
+	{
+	sound: "cmn-0935d373.flac",
+	hanzi: "母亲",
+	trans: "mother",
+	pinyin: "mǔqīn"
+	},
+	{
+	sound: "cmn-09859c9a.flac",
+	hanzi: "生命",
+	trans: "life",
+	pinyin: "shēngmìng"
+	},
+	{
+	sound: "cmn-09bdac4e.flac",
+	hanzi: "纸张",
+	trans: "Paper",
+	pinyin: "zhǐzhāng"
+	},
+	{
+	sound: "cmn-0a535711.flac",
+	hanzi: "生活",
+	trans: "life",
+	pinyin: "shēnghuó"
+	},
+	{
+	sound: "cmn-0a87c0e3.flac",
+	hanzi: "午餐",
+	trans: "lunch",
+	pinyin: "wǔcān"
+	},
+	{
+	sound: "cmn-0ac1dfbc.flac",
+	hanzi: "低",
+	trans: "low",
+	pinyin: "dī"
+	},
+	{
+	sound: "cmn-0ad618c6.flac",
+	hanzi: "再见",
+	trans: "Goodbye",
+	pinyin: "zàijiàn"
+	},
+	{
+	sound: "cmn-0b09085e.flac",
+	hanzi: "噪音",
+	trans: "noise",
+	pinyin: "zàoyīn"
+	},
+	{
+	sound: "cmn-0b106591.flac",
+	hanzi: "孩子",
+	trans: "child",
+	pinyin: "háizi"
+	},
+	{
+	sound: "cmn-0bb38c77.flac",
+	hanzi: "空气",
+	trans: "air",
+	pinyin: "kōngqì"
+	},
+	{
+	sound: "cmn-0bd4d7fe.flac",
+	hanzi: "考试",
+	trans: "examination",
+	pinyin: "kǎoshì"
+	},
+	{
+	sound: "cmn-0bf0e2f4.flac",
+	hanzi: "烧",
+	trans: "burn",
+	pinyin: "shāo"
+	},
+	{
+	sound: "cmn-0c6b6172.flac",
+	hanzi: "感冒",
+	trans: "cold",
+	pinyin: "gǎnmào"
+	},
+	{
+	sound: "cmn-0da4f18b.flac",
+	hanzi: "有空",
+	trans: "Available",
+	pinyin: "yǒu kòng"
+	},
+	{
+	sound: "cmn-0e261443.flac",
+	hanzi: "浸",
+	trans: "Dip",
+	pinyin: "jìn"
+	},
+	{
+	sound: "cmn-0e8a4a2b.flac",
+	hanzi: "前面",
+	trans: "front",
+	pinyin: "qiánmiàn"
+	},
+	{
+	sound: "cmn-0e9ae27f.flac",
+	hanzi: "长",
+	trans: "long",
+	pinyin: "zhǎng"
+	},
+	{
+	sound: "cmn-0eeae608.flac",
+	hanzi: "因特网",
+	trans: "Internet",
+	pinyin: "yīntèwǎng"
+	},
+	{
+	sound: "cmn-0ef50a53.flac",
+	hanzi: "少男",
+	trans: "Young boy",
+	pinyin: "shàonán"
+	},
+	{
+	sound: "cmn-0f03c659.flac",
+	hanzi: "绿",
+	trans: "green",
+	pinyin: "lǜ"
+	},
+	{
+	sound: "cmn-0f1e9f47.flac",
+	hanzi: "出",
+	trans: "Out",
+	pinyin: "chū"
+	},
+	{
+	sound: "cmn-0fa43581.flac",
+	hanzi: "我想要",
+	trans: "I want",
+	pinyin: "wǒ xiǎng yào"
+	},
+	{
+	sound: "cmn-0fcb2b2c.flac",
+	hanzi: "部长",
+	trans: "minister",
+	pinyin: "bùzhǎng"
+	},
+	{
+	sound: "cmn-100b34f0.flac",
+	hanzi: "丈夫",
+	trans: "husband",
+	pinyin: "zhàngfū"
+	},
+	{
+	sound: "cmn-104648e6.flac",
+	hanzi: "纸巾",
+	trans: "Paper towel",
+	pinyin: "zhǐjīn"
+	},
+	{
+	sound: "cmn-109a629f.flac",
+	hanzi: "一个月",
+	trans: "A month",
+	pinyin: "Yīgè yuè"
+	},
+	{
+	sound: "cmn-11c92285.flac",
+	hanzi: "村",
+	trans: "village",
+	pinyin: "cūn"
+	},
+	{
+	sound: "cmn-11d0d7ba.flac",
+	hanzi: "山",
+	trans: "mountain",
+	pinyin: "shān"
+	},
+	{
+	sound: "cmn-12405570.flac",
+	hanzi: "药房",
+	trans: "pharmacy",
+	pinyin: "yàofáng"
+	},
+	{
+	sound: "cmn-1278dcf3.flac",
+	hanzi: "出发",
+	trans: "set off",
+	pinyin: "chūfā"
+	},
+	{
+	sound: "cmn-13ace787.flac",
+	hanzi: "今天",
+	trans: "Nowadays",
+	pinyin: "jīntiān"
+	},
+	{
+	sound: "cmn-13ca4a36.flac",
+	hanzi: "雨",
+	trans: "rain",
+	pinyin: "yǔ"
+	},
+	{
+	sound: "cmn-144759ce.flac",
+	hanzi: "星期一",
+	trans: "Monday",
+	pinyin: "xīngqí yī"
+	},
+	{
+	sound: "cmn-145eedb3.flac",
+	hanzi: "烟草",
+	trans: "tobacco",
+	pinyin: "yāncǎo"
+	},
+	{
+	sound: "cmn-14f59325.flac",
+	hanzi: "父母",
+	trans: "parents",
+	pinyin: "fùmǔ"
+	},
+	{
+	sound: "cmn-15de9858.flac",
+	hanzi: "鸟",
+	trans: "bird",
+	pinyin: "niǎo"
+	},
+	{
+	sound: "cmn-16081209.flac",
+	hanzi: "蚊子",
+	trans: "Mosquito",
+	pinyin: "wénzi"
+	},
+	{
+	sound: "cmn-161280b1.flac",
+	hanzi: "梨",
+	trans: "pear",
+	pinyin: "lí"
+	},
+	{
+	sound: "cmn-1683b11f.flac",
+	hanzi: "方向",
+	trans: "direction",
+	pinyin: "fāngxiàng"
+	},
+	{
+	sound: "cmn-17857f1f.flac",
+	hanzi: "脚",
+	trans: "foot",
+	pinyin: "jiǎo"
+	},
+	{
+	sound: "cmn-188d7727.flac",
+	hanzi: "港口",
+	trans: "port",
+	pinyin: "gǎngkǒu"
+	},
+	{
+	sound: "cmn-1921900f.flac",
+	hanzi: "家庭",
+	trans: "family",
+	pinyin: "jiātíng"
+	},
+	{
+	sound: "cmn-19574161.flac",
+	hanzi: "船",
+	trans: "ferry",
+	pinyin: "chuán"
+	},
+	{
+	sound: "cmn-19aff414.flac",
+	hanzi: "回头见！",
+	trans: "See you later!",
+	pinyin: "huítóu jiàn!"
+	},
+	{
+	sound: "cmn-1a1a584d.flac",
+	hanzi: "价格",
+	trans: "price",
+	pinyin: "Jiàgé"
+	},
+	{
+	sound: "cmn-1a1bdff3.flac",
+	hanzi: "为什么",
+	trans: "why?",
+	pinyin: "wèishéme?"
+	},
+	{
+	sound: "cmn-1a723a2d.flac",
+	hanzi: "画",
+	trans: "painting",
+	pinyin: "Huà"
+	},
+	{
+	sound: "cmn-1bad6479.flac",
+	hanzi: "幸福",
+	trans: "happy",
+	pinyin: "xìngfú"
+	},
+	{
+	sound: "cmn-1bbe8b92.flac",
+	hanzi: "有",
+	trans: "Have",
+	pinyin: "yǒu"
+	},
+	{
+	sound: "cmn-1d4edc8a.flac",
+	hanzi: "身体",
+	trans: "body",
+	pinyin: "shēntǐ"
+	},
+	{
+	sound: "cmn-1df9e2ae.flac",
+	hanzi: "太阳",
+	trans: "sun",
+	pinyin: "tàiyáng"
+	},
+	{
+	sound: "cmn-1f29ef64.flac",
+	hanzi: "心脏",
+	trans: "heart",
+	pinyin: "xīnzàng"
+	},
+	{
+	sound: "cmn-1fffa6ed.flac",
+	hanzi: "大家",
+	trans: "everyone",
+	pinyin: "dàjiā"
+	},
+	{
+	sound: "cmn-202e1678.flac",
+	hanzi: "盘子",
+	trans: "plate",
+	pinyin: "pánzi"
+	},
+	{
+	sound: "cmn-206b0a00.flac",
+	hanzi: "癌症",
+	trans: "cancer",
+	pinyin: "áizhèng"
+	},
+	{
+	sound: "cmn-21498d74.flac",
+	hanzi: "星期四",
+	trans: "Thursday",
+	pinyin: "xīngqísì"
+	},
+	{
+	sound: "cmn-21b60840.flac",
+	hanzi: "等等我！",
+	trans: "Wait for me!",
+	pinyin: "děng děng wǒ!"
+	},
+	{
+	sound: "cmn-220b66b0.flac",
+	hanzi: "死亡",
+	trans: "death",
+	pinyin: "Sǐwáng"
+	},
+	{
+	sound: "cmn-222ece37.flac",
+	hanzi: "神父",
+	trans: "Priest",
+	pinyin: "shénfù"
+	},
+	{
+	sound: "cmn-22628fac.flac",
+	hanzi: "我说中文",
+	trans: "I speakChinese",
+	pinyin: "Wǒ shuō zhōngwén"
+	},
+	{
+	sound: "cmn-2265a5c4.flac",
+	hanzi: "饭",
+	trans: "rice",
+	pinyin: "fàn"
+	},
+	{
+	sound: "cmn-22711e0c.flac",
+	hanzi: "果汁",
+	trans: "fruit juice",
+	pinyin: "guǒzhī"
+	},
+	{
+	sound: "cmn-228e9458.flac",
+	hanzi: "那里",
+	trans: "There",
+	pinyin: "nàlǐ"
+	},
+	{
+	sound: "cmn-235af603.flac",
+	hanzi: "教育",
+	trans: "education",
+	pinyin: "jiàoyù"
+	},
+	{
+	sound: "cmn-242ade03.flac",
+	hanzi: "请",
+	trans: "please",
+	pinyin: "qǐng"
+	},
+	{
+	sound: "cmn-249c5f96.flac",
+	hanzi: "旧",
+	trans: "old",
+	pinyin: "jiù"
+	},
+	{
+	sound: "cmn-24c7f63f.flac",
+	hanzi: "羊",
+	trans: "sheep",
+	pinyin: "yáng"
+	},
+	{
+	sound: "cmn-24d1cca2.flac",
+	hanzi: "明白",
+	trans: "understand",
+	pinyin: "míngbái"
+	},
+	{
+	sound: "cmn-25baabd1.flac",
+	hanzi: "花",
+	trans: "flower",
+	pinyin: "huā"
+	},
+	{
+	sound: "cmn-25d7658b.flac",
+	hanzi: "容易",
+	trans: "easy",
+	pinyin: "róngyì"
+	},
+	{
+	sound: "cmn-25fcbcde.flac",
+	hanzi: "嘴",
+	trans: "mouth",
+	pinyin: "zuǐ"
+	},
+	{
+	sound: "cmn-267cc491.flac",
+	hanzi: "我",
+	trans: "I",
+	pinyin: "wǒ"
+	},
+	{
+	sound: "cmn-26865323.flac",
+	hanzi: "工厂",
+	trans: "factory",
+	pinyin: "gōngchǎng"
+	},
+	{
+	sound: "cmn-271fc631.flac",
+	hanzi: "玉米",
+	trans: "corn",
+	pinyin: "yùmǐ"
+	},
+	{
+	sound: "cmn-27f4d77d.flac",
+	hanzi: "手臂",
+	trans: "Arm",
+	pinyin: "shǒubì"
+	},
+	{
+	sound: "cmn-283392a5.flac",
+	hanzi: "茶杯",
+	trans: "cup",
+	pinyin: "chábēi"
+	},
+	{
+	sound: "cmn-29188eac.flac",
+	hanzi: "城市",
+	trans: "city",
+	pinyin: "chéngshì"
+	},
+	{
+	sound: "cmn-29206147.flac",
+	hanzi: "工作",
+	trans: "jobs",
+	pinyin: "gōngzuò"
+	},
+	{
+	sound: "cmn-2965e54a.flac",
+	hanzi: "大学",
+	trans: "the University",
+	pinyin: "dàxué"
+	},
+	{
+	sound: "cmn-29ce666c.flac",
+	hanzi: "奶奶",
+	trans: "grandmother",
+	pinyin: "nǎinai"
+	},
+	{
+	sound: "cmn-2a765e3e.flac",
+	hanzi: "镜子",
+	trans: "mirror",
+	pinyin: "jìngzi"
+	},
+	{
+	sound: "cmn-2aaaff98.flac",
+	hanzi: "醒",
+	trans: "wake",
+	pinyin: "xǐng"
+	},
+	{
+	sound: "cmn-2adbec16.flac",
+	hanzi: "多少",
+	trans: "How many?",
+	pinyin: "duōshǎo?"
+	},
+	{
+	sound: "cmn-2b4c5d01.flac",
+	hanzi: "女士",
+	trans: "Ms",
+	pinyin: "Nǚshì"
+	},
+	{
+	sound: "cmn-2b6adc9c.flac",
+	hanzi: "祝你身体健康",
+	trans: "Stay healthy!",
+	pinyin: "zhù nǐ shēntǐ jiànkāng!"
+	},
+	{
+	sound: "cmn-2bab575b.flac",
+	hanzi: "斗争",
+	trans: "struggle",
+	pinyin: "Dòuzhēng"
+	},
+	{
+	sound: "cmn-2c02dbca.flac",
+	hanzi: "慢",
+	trans: "slow",
+	pinyin: "màn"
+	},
+	{
+	sound: "cmn-2c096856.flac",
+	hanzi: "海滩",
+	trans: "beach",
+	pinyin: "hǎitān"
+	},
+	{
+	sound: "cmn-2c9bc69c.flac",
+	hanzi: "文凭",
+	trans: "diploma",
+	pinyin: "wénpíng"
+	},
+	{
+	sound: "cmn-2caf7f00.flac",
+	hanzi: "爱滋病",
+	trans: "AIDS",
+	pinyin: "àizībìng"
+	},
+	{
+	sound: "cmn-2d9c9228.flac",
+	hanzi: "读",
+	trans: "read",
+	pinyin: "dú"
+	},
+	{
+	sound: "cmn-2fc77767.flac",
+	hanzi: "星期二",
+	trans: "Tuesday",
+	pinyin: "xīngqí'èr"
+	},
+	{
+	sound: "cmn-2ff5230f.flac",
+	hanzi: "这里",
+	trans: "Here",
+	pinyin: "zhèlǐ"
+	},
+	{
+	sound: "cmn-30412ad5.flac",
+	hanzi: "宗教",
+	trans: "religion",
+	pinyin: "zōngjiào"
+	},
+	{
+	sound: "cmn-3070cc5d.flac",
+	hanzi: "火",
+	trans: "fire",
+	pinyin: "huǒ"
+	},
+	{
+	sound: "cmn-307dd630.flac",
+	hanzi: "来",
+	trans: "Come",
+	pinyin: "lái"
+	},
+	{
+	sound: "cmn-3081870c.flac",
+	hanzi: "更多",
+	trans: "More",
+	pinyin: "gèng duō"
+	},
+	{
+	sound: "cmn-3156dfa2.flac",
+	hanzi: "盐",
+	trans: "salt",
+	pinyin: "yán"
+	},
+	{
+	sound: "cmn-31a588dd.flac",
+	hanzi: "她",
+	trans: "she/her",
+	pinyin: "tā"
+	},
+	{
+	sound: "cmn-325db3af.flac",
+	hanzi: "晚上好",
+	trans: "good evening",
+	pinyin: "wǎnshàng hǎo"
+	},
+	{
+	sound: "cmn-326f7281.flac",
+	hanzi: "牛奶",
+	trans: "milk",
+	pinyin: "niúnǎi"
+	},
+	{
+	sound: "cmn-3344b3ed.flac",
+	hanzi: "和平",
+	trans: "peace",
+	pinyin: "hépíng"
+	},
+	{
+	sound: "cmn-33ac707f.flac",
+	hanzi: "强",
+	trans: "Strong",
+	pinyin: "qiáng"
+	},
+	{
+	sound: "cmn-33c4aec5.flac",
+	hanzi: "这是什么",
+	trans: "what is this?",
+	pinyin: "zhè shì shénme?"
+	},
+	{
+	sound: "cmn-347b43e2.flac",
+	hanzi: "蛋糕",
+	trans: "cake",
+	pinyin: "Dàngāo"
+	},
+	{
+	sound: "cmn-34c6c50c.flac",
+	hanzi: "合同",
+	trans: "contract",
+	pinyin: "hétóng"
+	},
+	{
+	sound: "cmn-34c869f4.flac",
+	hanzi: "社会",
+	trans: "society",
+	pinyin: "shèhuì"
+	},
+	{
+	sound: "cmn-36296e70.flac",
+	hanzi: "朋友",
+	trans: "friend",
+	pinyin: "péngyǒu"
+	},
+	{
+	sound: "cmn-3660b212.flac",
+	hanzi: "油",
+	trans: "oil",
+	pinyin: "yóu"
+	},
+	{
+	sound: "cmn-366c2291.flac",
+	hanzi: "姐姐",
+	trans: "sister",
+	pinyin: "jiějiě"
+	},
+	{
+	sound: "cmn-3673aba6.flac",
+	hanzi: "地狱",
+	trans: "hell",
+	pinyin: "dìyù"
+	},
+	{
+	sound: "cmn-36c84cc4.flac",
+	hanzi: "好",
+	trans: "it is good",
+	pinyin: "hǎo"
+	},
+	{
+	sound: "cmn-36d2781e.flac",
+	hanzi: "睡",
+	trans: "sleep",
+	pinyin: "shuì"
+	},
+	{
+	sound: "cmn-371d0844.flac",
+	hanzi: "灯",
+	trans: "light",
+	pinyin: "dēng"
+	},
+	{
+	sound: "cmn-37678c0c.flac",
+	hanzi: "政治",
+	trans: "political",
+	pinyin: "zhèngzhì"
+	},
+	{
+	sound: "cmn-38c4d257.flac",
+	hanzi: "公共汽车",
+	trans: "bus",
+	pinyin: "gōnggòng qìchē"
+	},
+	{
+	sound: "cmn-38cac41a.flac",
+	hanzi: "打电话",
+	trans: "Call",
+	pinyin: "dǎ diànhuà"
+	},
+	{
+	sound: "cmn-38d96cd9.flac",
+	hanzi: "军人",
+	trans: "soldier",
+	pinyin: "jūnrén"
+	},
+	{
+	sound: "cmn-3ab22732.flac",
+	hanzi: "星期六",
+	trans: "on Saturday",
+	pinyin: "xīngqíliù"
+	},
+	{
+	sound: "cmn-3bb17d33.flac",
+	hanzi: "一天",
+	trans: "one day",
+	pinyin: "yītiān"
+	},
+	{
+	sound: "cmn-3bd5c0ed.flac",
+	hanzi: "火柴",
+	trans: "matches",
+	pinyin: "huǒchái"
+	},
+	{
+	sound: "cmn-3c39cde8.flac",
+	hanzi: "枕头",
+	trans: "pillow",
+	pinyin: "zhěntou"
+	},
+	{
+	sound: "cmn-3c561d54.flac",
+	hanzi: "地毯",
+	trans: "carpet",
+	pinyin: "dìtǎn"
+	},
+	{
+	sound: "cmn-3c9d278e.flac",
+	hanzi: "旅行",
+	trans: "travel",
+	pinyin: "lǚxíng"
+	},
+	{
+	sound: "cmn-3cabef31.flac",
+	hanzi: "星期五",
+	trans: "Friday",
+	pinyin: "xīngqíwǔ"
+	},
+	{
+	sound: "cmn-3e6447ad.flac",
+	hanzi: "耳朵",
+	trans: "ear",
+	pinyin: "ěrduǒ"
+	},
+	{
+	sound: "cmn-3ef09f42.flac",
+	hanzi: "外婆",
+	trans: "Grandma",
+	pinyin: "wàipó"
+	},
+	{
+	sound: "cmn-401708e5.flac",
+	hanzi: "天堂",
+	trans: "heaven",
+	pinyin: "tiāntáng"
+	},
+	{
+	sound: "cmn-40b6425f.flac",
+	hanzi: "弟弟",
+	trans: "Little brother",
+	pinyin: "dìdì"
+	},
+	{
+	sound: "cmn-411b7527.flac",
+	hanzi: "给...看",
+	trans: "Show",
+	pinyin: "gěi... Kàn"
+	},
+	{
+	sound: "cmn-413cdeef.flac",
+	hanzi: "忘记",
+	trans: "forget",
+	pinyin: "wàngjì"
+	},
+	{
+	sound: "cmn-41cbc37e.flac",
+	hanzi: "邮票",
+	trans: "stamp",
+	pinyin: "yóupiào"
+	},
+	{
+	sound: "cmn-42c0857b.flac",
+	hanzi: "我住大学宿舍",
+	trans: "I live in a university dormitory",
+	pinyin: "wǒ zhù dàxué sùshè "
+	},
+	{
+	sound: "cmn-432fe755.flac",
+	hanzi: "床",
+	trans: "bed",
+	pinyin: "chuáng"
+	},
+	{
+	sound: "cmn-437d4db7.flac",
+	hanzi: "教授",
+	trans: "professor",
+	pinyin: "jiàoshòu"
+	},
+	{
+	sound: "cmn-438eafcf.flac",
+	hanzi: "桥",
+	trans: "bridge",
+	pinyin: "qiáo"
+	},
+	{
+	sound: "cmn-44f44561.flac",
+	hanzi: "关",
+	trans: "turn off",
+	pinyin: "guān"
+	},
+	{
+	sound: "cmn-456e471a.flac",
+	hanzi: "丢",
+	trans: "throw",
+	pinyin: "Diū"
+	},
+	{
+	sound: "cmn-458a3ed2.flac",
+	hanzi: "墙",
+	trans: "wall",
+	pinyin: "Qiáng"
+	},
+	{
+	sound: "cmn-459a9a19.flac",
+	hanzi: "腿",
+	trans: "leg",
+	pinyin: "tuǐ"
+	},
+	{
+	sound: "cmn-46a9f548.flac",
+	hanzi: "证券交易所",
+	trans: "Stock exchange",
+	pinyin: "Zhèngquàn jiāoyì suǒ"
+	},
+	{
+	sound: "cmn-46bfe155.flac",
+	hanzi: "白",
+	trans: "White",
+	pinyin: "bái"
+	},
+	{
+	sound: "cmn-4778a36b.flac",
+	hanzi: "从不",
+	trans: "Never",
+	pinyin: "Cóng bù"
+	},
+	{
+	sound: "cmn-481c5c0c.flac",
+	hanzi: "水果",
+	trans: "fruit",
+	pinyin: "shuǐguǒ"
+	},
+	{
+	sound: "cmn-48256932.flac",
+	hanzi: "看见",
+	trans: "see",
+	pinyin: "Kànjiàn"
+	},
+	{
+	sound: "cmn-48a10390.flac",
+	hanzi: "哥哥",
+	trans: "brother",
+	pinyin: "gēgē"
+	},
+	{
+	sound: "cmn-4905e74a.flac",
+	hanzi: "柠檬",
+	trans: "lemon",
+	pinyin: "níngméng"
+	},
+	{
+	sound: "cmn-493c4e48.flac",
+	hanzi: "小孩",
+	trans: "Child",
+	pinyin: "Xiǎohái"
+	},
+	{
+	sound: "cmn-494ca110.flac",
+	hanzi: "狼",
+	trans: "Wolf",
+	pinyin: "láng"
+	},
+	{
+	sound: "cmn-4bf4bdb3.flac",
+	hanzi: "午饭",
+	trans: "lunch",
+	pinyin: "Wǔfàn"
+	},
+	{
+	sound: "cmn-4c64f8d8.flac",
+	hanzi: "回答",
+	trans: "Reply",
+	pinyin: "Huídá"
+	},
+	{
+	sound: "cmn-4c849880.flac",
+	hanzi: "黄油",
+	trans: "butter",
+	pinyin: "Huángyóu"
+	},
+	{
+	sound: "cmn-4d64190a.flac",
+	hanzi: "警察",
+	trans: "Policemen",
+	pinyin: "Jǐngchá"
+	},
+	{
+	sound: "cmn-4df5d558.flac",
+	hanzi: "嘴唇",
+	trans: "Lips",
+	pinyin: "zuǐchún"
+	},
+	{
+	sound: "cmn-4df6c433.flac",
+	hanzi: "运河",
+	trans: "canal",
+	pinyin: "yùnhé"
+	},
+	{
+	sound: "cmn-4e1000c3.flac",
+	hanzi: "工程师",
+	trans: "engineer",
+	pinyin: "gōngchéngshī"
+	},
+	{
+	sound: "cmn-4e8a5a3a.flac",
+	hanzi: "刀",
+	trans: "Knife",
+	pinyin: "Dāo"
+	},
+	{
+	sound: "cmn-4ec15758.flac",
+	hanzi: "醋",
+	trans: "vinegar",
+	pinyin: "Cù"
+	},
+	{
+	sound: "cmn-4ef51d13.flac",
+	hanzi: "生日",
+	trans: "birthday",
+	pinyin: "shēngrì"
+	},
+	{
+	sound: "cmn-4ef93b9d.flac",
+	hanzi: "邻居",
+	trans: "neighbor",
+	pinyin: "línjū"
+	},
+	{
+	sound: "cmn-4ff7e06c.flac",
+	hanzi: "他",
+	trans: "he",
+	pinyin: "tā"
+	},
+	{
+	sound: "cmn-50a2b841.flac",
+	hanzi: "你好",
+	trans: "Hello there",
+	pinyin: "nǐ hǎo"
+	},
+	{
+	sound: "cmn-50a7720d.flac",
+	hanzi: "你叫什么名字",
+	trans: "What's your name?",
+	pinyin: "nǐ jiào shénme míngzì? "
+	},
+	{
+	sound: "cmn-50b385b4.flac",
+	hanzi: "瓶子",
+	trans: "bottle",
+	pinyin: "Píngzi"
+	},
+	{
+	sound: "cmn-50c65e07.flac",
+	hanzi: "衬衫",
+	trans: "shirt",
+	pinyin: "chènshān"
+	},
+	{
+	sound: "cmn-510dc77d.flac",
+	hanzi: "不是",
+	trans: "Is not",
+	pinyin: "bùshì"
+	},
+	{
+	sound: "cmn-52a6b049.flac",
+	hanzi: "左边",
+	trans: "left",
+	pinyin: "Zuǒbiān"
+	},
+	{
+	sound: "cmn-5305045d.flac",
+	hanzi: "我在巴黎读书",
+	trans: "I study in Paris",
+	pinyin: "wǒ zài bālí dúshū"
+	},
+	{
+	sound: "cmn-530c7a1a.flac",
+	hanzi: "摩托车",
+	trans: "motorcycle",
+	pinyin: "mótuō chē"
+	},
+	{
+	sound: "cmn-533d0c9a.flac",
+	hanzi: "歌剧",
+	trans: "opera",
+	pinyin: "gējù"
+	},
+	{
+	sound: "cmn-55912595.flac",
+	hanzi: "在",
+	trans: "in",
+	pinyin: "zài"
+	},
+	{
+	sound: "cmn-559893d9.flac",
+	hanzi: "吃",
+	trans: "eat",
+	pinyin: "chī"
+	},
+	{
+	sound: "cmn-560fc521.flac",
+	hanzi: "头",
+	trans: "head",
+	pinyin: "tóu"
+	},
+	{
+	sound: "cmn-56147e8a.flac",
+	hanzi: "牛肉",
+	trans: "beef",
+	pinyin: "niúròu"
+	},
+	{
+	sound: "cmn-561ca00f.flac",
+	hanzi: "问",
+	trans: "ask",
+	pinyin: "wèn"
+	},
+	{
+	sound: "cmn-56734d39.flac",
+	hanzi: "经济",
+	trans: "economic",
+	pinyin: "jīngjì"
+	},
+	{
+	sound: "cmn-568d6c36.flac",
+	hanzi: "苹果",
+	trans: "apple",
+	pinyin: "píngguǒ"
+	},
+	{
+	sound: "cmn-5761fde1.flac",
+	hanzi: "棕",
+	trans: "Brown",
+	pinyin: "zōng"
+	},
+	{
+	sound: "cmn-5767840f.flac",
+	hanzi: "明天",
+	trans: "tomorrow",
+	pinyin: "míngtiān"
+	},
+	{
+	sound: "cmn-5779813a.flac",
+	hanzi: "能够",
+	trans: "were able",
+	pinyin: "nénggòu"
+	},
+	{
+	sound: "cmn-579231bc.flac",
+	hanzi: "地球",
+	trans: "Earth",
+	pinyin: "dìqiú"
+	},
+	{
+	sound: "cmn-58276849.flac",
+	hanzi: "饭店",
+	trans: "restaurant",
+	pinyin: "Cānguǎn"
+	},
+	{
+	sound: "cmn-586a2885.flac",
+	hanzi: "土豆",
+	trans: "potato",
+	pinyin: "tǔdòu"
+	},
+	{
+	sound: "cmn-58917c41.flac",
+	hanzi: "票",
+	trans: "ticket",
+	pinyin: "piào"
+	},
+	{
+	sound: "cmn-58d4324c.flac",
+	hanzi: "总是",
+	trans: "always",
+	pinyin: "zǒng shì"
+	},
+	{
+	sound: "cmn-58f20d36.flac",
+	hanzi: "政府",
+	trans: "government",
+	pinyin: "zhèngfǔ"
+	},
+	{
+	sound: "cmn-594cdaa8.flac",
+	hanzi: "她们",
+	trans: "they",
+	pinyin: "tāmen"
+	},
+	{
+	sound: "cmn-5aa48596.flac",
+	hanzi: "消防员",
+	trans: "Firemen",
+	pinyin: "xiāofáng yuán"
+	},
+	{
+	sound: "cmn-5ac6f809.flac",
+	hanzi: "学习",
+	trans: "Learn",
+	pinyin: "xuéxí"
+	},
+	{
+	sound: "cmn-5b18b242.flac",
+	hanzi: "书",
+	trans: "book",
+	pinyin: "shū"
+	},
+	{
+	sound: "cmn-5ba1cafe.flac",
+	hanzi: "番茄",
+	trans: "tomato",
+	pinyin: "fānqié"
+	},
+	{
+	sound: "cmn-5c30a0b1.flac",
+	hanzi: "进",
+	trans: "Advance",
+	pinyin: "Jìn"
+	},
+	{
+	sound: "cmn-5daf4c95.flac",
+	hanzi: "党派",
+	trans: "partisan",
+	pinyin: "dǎngpài"
+	},
+	{
+	sound: "cmn-5dce5fdc.flac",
+	hanzi: "应该...",
+	trans: "should...",
+	pinyin: "yīnggāi..."
+	},	
+	{
+	sound: "cmn-5df666a7.flac",
+	hanzi: "课",
+	trans: "class",
+	pinyin: "Kè"
+	},
+	{
+	sound: "cmn-5ecf6197.flac",
+	hanzi: "一小时",
+	trans: "One hour",
+	pinyin: "yī xiǎoshí"
+	},
+	{
+	sound: "cmn-5f781fbc.flac",
+	hanzi: "公司",
+	trans: "the company",
+	pinyin: "gōngsī"
+	},
+	{
+	sound: "cmn-61c68565.flac",
+	hanzi: "中午",
+	trans: "noon",
+	pinyin: "zhōngwǔ"
+	},
+	{
+	sound: "cmn-6215a6b0.flac",
+	hanzi: "人们",
+	trans: "people",
+	pinyin: "rénmen"
+	},
+	{
+	sound: "cmn-62177238.flac",
+	hanzi: "漂亮",
+	trans: "Pretty",
+	pinyin: "piàoliang"
+	},
+	{
+	sound: "cmn-622a1809.flac",
+	hanzi: "做",
+	trans: "do",
+	pinyin: "zuò"
+	},
+	{
+	sound: "cmn-631274b5.flac",
+	hanzi: "贵",
+	trans: "expensive",
+	pinyin: "Guì"
+	},
+	{
+	sound: "cmn-6315ac89.flac",
+	hanzi: "香烟",
+	trans: "cigarette",
+	pinyin: "xiāngyān"
+	},
+	{
+	sound: "cmn-6316d894.flac",
+	hanzi: "餐",
+	trans: "meal",
+	pinyin: "Cān"
+	},
+	{
+	sound: "cmn-6434bdce.flac",
+	hanzi: "人",
+	trans: "people",
+	pinyin: "rén"
+	},	
+	{
+	sound: "cmn-6540da8f.flac",
+	hanzi: "火车",
+	trans: "train",
+	pinyin: "Huǒchē"
+	},
+	{
+	sound: "cmn-65835508.flac",
+	hanzi: "小心！",
+	trans: "Be careful!",
+	pinyin: "xiǎoxīn! "
+	},
+	{
+	sound: "cmn-667b5263.flac",
+	hanzi: "鱼",
+	trans: "fish",
+	pinyin: "Yú"
+	},
+	{
+	sound: "cmn-68b4d2bb.flac",
+	hanzi: "冷",
+	trans: "cold",
+	pinyin: "lěng"
+	},
+	{
+	sound: "cmn-69bf3e7e.flac",
+	hanzi: "...在哪里",
+	trans: "...where is it?",
+	pinyin: "... zài nǎlǐ? "
+	},
+	{
+	sound: "cmn-6a232c98.flac",
+	hanzi: "小鼠",
+	trans: "Mouse",
+	pinyin: "Xiǎo shǔ"
+	},
+	{
+	sound: "cmn-6a377db6.flac",
+	hanzi: "重复",
+	trans: "repeat",
+	pinyin: "chóngfù"
+	},
+	{
+	sound: "cmn-6a7065c8.flac",
+	hanzi: "椅子",
+	trans: "chair",
+	pinyin: "yǐzi"
+	},
+	{
+	sound: "cmn-6abb6393.flac",
+	hanzi: "牙齿",
+	trans: "tooth",
+	pinyin: "Yáchǐ"
+	},
+	{
+	sound: "cmn-6af0f225.flac",
+	hanzi: "套房",
+	trans: "suite",
+	pinyin: "tàofáng"
+	},
+	{
+	sound: "cmn-6b7bec0f.flac",
+	hanzi: "发",
+	trans: "hair",
+	pinyin: "Fā"
+	},	
+	{
+	sound: "cmn-6b9f4836.flac",
+	hanzi: "兄弟",
+	trans: "brothers",
+	pinyin: "xiōngdì"
+	},
+	{
+	sound: "cmn-6bb45801.flac",
+	hanzi: "干净",
+	trans: "clean",
+	pinyin: "Gānjìng"
+	},
+	{
+	sound: "cmn-6bdaa495.flac",
+	hanzi: "放",
+	trans: "put",
+	pinyin: "fàng"
+	},
+	{
+	sound: "cmn-6c135357.flac",
+	hanzi: "我叫...",
+	trans: "My name is...",
+	pinyin: "Wǒ jiào..."
+	},
+	{
+	sound: "cmn-6d126a73.flac",
+	hanzi: "税收",
+	trans: "tax",
+	pinyin: "Shuìshōu"
+	},
+	{
+	sound: "cmn-6d244c20.flac",
+	hanzi: "动物",
+	trans: "animal",
+	pinyin: "dòngwù"
+	},
+	{
+	sound: "cmn-6d9be16a.flac",
+	hanzi: "星期三",
+	trans: "Wednesday",
+	pinyin: "xīngqísān"
+	},
+	{
+	sound: "cmn-6dc58bbc.flac",
+	hanzi: "姐妹",
+	trans: "sisters",
+	pinyin: "jiěmèi"
+	},
+	{
+	sound: "cmn-6e0104b7.flac",
+	hanzi: "葡萄",
+	trans: "grape",
+	pinyin: "pútáo"
+	},
+	{
+	sound: "cmn-6e5e386e.flac",
+	hanzi: "我很好",
+	trans: "I'm very good",
+	pinyin: "wǒ hěn hǎo"
+	},
+	{
+	sound: "cmn-6fc99609.flac",
+	hanzi: "鸡肉",
+	trans: "chicken",
+	pinyin: "jīròu"
+	},
+	{
+	sound: "cmn-70ae6128.flac",
+	hanzi: "火车站",
+	trans: "train station",
+	pinyin: "huǒchē zhàn"
+	},
+	{
+	sound: "cmn-70c021bc.flac",
+	hanzi: "带来",
+	trans: "bring",
+	pinyin: "dài lái"
+	},
+	{
+	sound: "cmn-71cf1036.flac",
+	hanzi: "后面",
+	trans: "Behind",
+	pinyin: "Hòumiàn"
+	},	
+	{
+	sound: "cmn-7231034e.flac",
+	hanzi: "快",
+	trans: "fast",
+	pinyin: "kuài"
+	},
+	{
+	sound: "cmn-72e5e7fd.flac",
+	hanzi: "卷心菜",
+	trans: "cabbage",
+	pinyin: "juǎnxīncài"
+	},
+	{
+	sound: "cmn-745957ec.flac",
+	hanzi: "生病",
+	trans: "sick",
+	pinyin: "shēngbìng"
+	},
+	{
+	sound: "cmn-74a904c7.flac",
+	hanzi: "厨房",
+	trans: "kitchen",
+	pinyin: "chúfáng"
+	},
+	{
+	sound: "cmn-74c6fe14.flac",
+	hanzi: "头发",
+	trans: "hair",
+	pinyin: "tóufǎ"
+	},
+	{
+	sound: "cmn-74fda535.flac",
+	hanzi: "晚安",
+	trans: "good night",
+	pinyin: "wǎn'ān"
+	},
+	{
+	sound: "cmn-751e9bc1.flac",
+	hanzi: "红",
+	trans: "red",
+	pinyin: "hóng"
+	},
+	{
+	sound: "cmn-757a18f4.flac",
+	hanzi: "没人",
+	trans: "no one",
+	pinyin: "méiyǒu rén"
+	},
+	{
+	sound: "cmn-75fee348.flac",
+	hanzi: "浴室",
+	trans: "bathroom",
+	pinyin: "yùshì"
+	},
+	{
+	sound: "cmn-7746a722.flac",
+	hanzi: "医院",
+	trans: "hospital",
+	pinyin: "yīyuàn"
+	},
+	{
+	sound: "cmn-77e00a1a.flac",
+	hanzi: "开心",
+	trans: "Happy",
+	pinyin: "Kāixīn"
+	},
+	{
+	sound: "cmn-78177459.flac",
+	hanzi: "交叉",
+	trans: "cross",
+	pinyin: "chā"
+	},
+	{
+	sound: "cmn-78b1ca25.flac",
+	hanzi: "地址",
+	trans: "address",
+	pinyin: "dìzhǐ"
+	},
+	{
+	sound: "cmn-78e52ed0.flac",
+	hanzi: "接受",
+	trans: "accept",
+	pinyin: "jiēshòu"
+	},
+	{
+	sound: "cmn-799ef867.flac",
+	hanzi: "爸爸",
+	trans: "father",
+	pinyin: "Bàba"
+	},
+	{
+	sound: "cmn-7a4185df.flac",
+	hanzi: "汽油",
+	trans: "gasoline",
+	pinyin: "qìyóu"
+	},
+	{
+	sound: "cmn-7a4fb9ef.flac",
+	hanzi: "汽车",
+	trans: "car",
+	pinyin: "qìchē"
+	},
+	{
+	sound: "cmn-7a589bf4.flac",
+	hanzi: "脏",
+	trans: "dirty",
+	pinyin: "zàng"
+	},
+	{
+	sound: "cmn-7ae7ac2d.flac",
+	hanzi: "水",
+	trans: "water",
+	pinyin: "shuǐ"
+	},
+	{
+	sound: "cmn-7b216a3b.flac",
+	hanzi: "树",
+	trans: "tree",
+	pinyin: "shù"
+	},
+	{
+	sound: "cmn-7b3133ba.flac",
+	hanzi: "我不知道",
+	trans: "I do not know",
+	pinyin: "wǒ bù zhīdào"
+	},
+	{
+	sound: "cmn-7b512b46.flac",
+	hanzi: "结束",
+	trans: "End",
+	pinyin: "jiéshù"
+	},
+	{
+	sound: "cmn-7bf30115.flac",
+	hanzi: "打火机",
+	trans: "lighter",
+	pinyin: "dǎhuǒjī"
+	},
+	{
+	sound: "cmn-7c6bbdab.flac",
+	hanzi: "帽子",
+	trans: "hat",
+	pinyin: "màozi"
+	},
+	{
+	sound: "cmn-7cfc5764.flac",
+	hanzi: "下面",
+	trans: "the following",
+	pinyin: "Xiàmiàn"
+	},
+	{
+	sound: "cmn-7dc6ef2a.flac",
+	hanzi: "住",
+	trans: "live",
+	pinyin: "Zhù"
+	},
+	{
+	sound: "cmn-7e455680.flac",
+	hanzi: "湖",
+	trans: "lake",
+	pinyin: "hú"
+	},
+	{
+	sound: "cmn-7e4b8d08.flac",
+	hanzi: "汤",
+	trans: "soup",
+	pinyin: "tāng"
+	},
+	{
+	sound: "cmn-7e64f673.flac",
+	hanzi: "文化",
+	trans: "culture",
+	pinyin: "wénhuà"
+	},
+	{
+	sound: "cmn-7ecd53b4.flac",
+	hanzi: "知道",
+	trans: "know",
+	pinyin: "zhīdào"
+	},
+	{
+	sound: "cmn-7f908d4a.flac",
+	hanzi: "先生",
+	trans: "Mr",
+	pinyin: "xiānshēng"
+	},
+	{
+	sound: "cmn-80b6274f.flac",
+	hanzi: "花园",
+	trans: "garden",
+	pinyin: "huāyuán"
+	},
+	{
+	sound: "cmn-80cfaa0f.flac",
+	hanzi: "互联网",
+	trans: "the Internet",
+	pinyin: "hùliánwǎng"
+	},
+	{
+	sound: "cmn-81c7d345.flac",
+	hanzi: "街",
+	trans: "street",
+	pinyin: "jiē"
+	},
+	{
+	sound: "cmn-8212b4e5.flac",
+	hanzi: "苍蝇",
+	trans: "fly",
+	pinyin: "Cāngyíng"
+	},
+	{
+	sound: "cmn-82f89cd3.flac",
+	hanzi: "光",
+	trans: "Light",
+	pinyin: "guāng"
+	},
+	{
+	sound: "cmn-830fc462.flac",
+	hanzi: "我们",
+	trans: "we",
+	pinyin: "wǒmen"
+	},
+	{
+	sound: "cmn-830fd714.flac",
+	hanzi: "慢慢地",
+	trans: "slowly",
+	pinyin: "màn man de"
+	},
+	{
+	sound: "cmn-8355f2be.flac",
+	hanzi: "生产",
+	trans: "produce",
+	pinyin: "shēngchǎn"
+	},
+	{
+	sound: "cmn-8357367e.flac",
+	hanzi: "计算",
+	trans: "Calculation",
+	pinyin: "jìsuàn"
+	},
+	{
+	sound: "cmn-840f5ab1.flac",
+	hanzi: "东",
+	trans: "east",
+	pinyin: "dōng"
+	},
+	{
+	sound: "cmn-848919fa.flac",
+	hanzi: "谁",
+	trans: "Who?",
+	pinyin: "shéi"
+	},
+	{
+	sound: "cmn-85617390.flac",
+	hanzi: "周三",
+	trans: "on Wednesday",
+	pinyin: "Zhōusān"
+	},
+	{
+	sound: "cmn-8568d43d.flac",
+	hanzi: "糖",
+	trans: "sugar",
+	pinyin: "táng"
+	},
+	{
+	sound: "cmn-8582af3f.flac",
+	hanzi: "拒绝",
+	trans: "Refuse",
+	pinyin: "Jùjué"
+	},
+	{
+	sound: "cmn-85d519b6.flac",
+	hanzi: "男人",
+	trans: "the man",
+	pinyin: "nánrén"
+	},
+	{
+	sound: "cmn-85deb210.flac",
+	hanzi: "猫",
+	trans: "Cat",
+	pinyin: "māo"
+	},
+	{
+	sound: "cmn-85e11cea.flac",
+	hanzi: "卫生间",
+	trans: "bathroom",
+	pinyin: "Wèishēngjiān"
+	},
+	{
+	sound: "cmn-85f1ec7c.flac",
+	hanzi: "我20岁",
+	trans: "I am 20 years old",
+	pinyin: "wǒ 20 suìle"
+	},
+	{
+	sound: "cmn-860ff64e.flac",
+	hanzi: "一分钟",
+	trans: "One minute",
+	pinyin: "Yī fēnzhōng"
+	},
+	{
+	sound: "cmn-868052f6.flac",
+	hanzi: "真的",
+	trans: "Really",
+	pinyin: "Zhēn de"
+	},
+	{
+	sound: "cmn-86d0cb94.flac",
+	hanzi: "妻子",
+	trans: "wife",
+	pinyin: "qīzi"
+	},
+	{
+	sound: "cmn-882f495e.flac",
+	hanzi: "橙子",
+	trans: "orange",
+	pinyin: "chéngzi"
+	},
+	{
+	sound: "cmn-887c62bb.flac",
+	hanzi: "纸",
+	trans: "paper",
+	pinyin: "zhǐ"
+	},
+	{
+	sound: "cmn-89fd89d1.flac",
+	hanzi: "更少",
+	trans: "less",
+	pinyin: "Gèng shǎo"
+	},
+	{
+	sound: "cmn-8abdc5d2.flac",
+	hanzi: "蔬菜",
+	trans: "vegetables",
+	pinyin: "shūcài"
+	},
+	{
+	sound: "cmn-8af61b16.flac",
+	hanzi: "词典",
+	trans: "dictionary",
+	pinyin: "zìdiǎn"
+	},
+	{
+	sound: "cmn-8b49bd3c.flac",
+	hanzi: "停",
+	trans: "stop",
+	pinyin: "tíng"
+	},
+	{
+	sound: "cmn-8c626e2a.flac",
+	hanzi: "蓝",
+	trans: "blue",
+	pinyin: "lán"
+	},
+	{
+	sound: "cmn-8d96d7ae.flac",
+	hanzi: "祖母",
+	trans: "grandmother",
+	pinyin: "zǔmǔ"
+	},
+	{
+	sound: "cmn-8d9f42b8.flac",
+	hanzi: "妹妹",
+	trans: "younger sister",
+	pinyin: "mèimei"
+	},
+	{
+	sound: "cmn-8eb9fefe.flac",
+	hanzi: "床单",
+	trans: "Bed sheet",
+	pinyin: "chuángdān"
+	},
+	{
+	sound: "cmn-901a87a4.flac",
+	hanzi: "餐巾",
+	trans: "napkin",
+	pinyin: "cānjīn"
+	},
+	{
+	sound: "cmn-901eb874.flac",
+	hanzi: "医生",
+	trans: "Doctors",
+	pinyin: "yīshēng"
+	},
+	{
+	sound: "cmn-90680009.flac",
+	hanzi: "鞋子",
+	trans: "Shoes",
+	pinyin: "xiézi"
+	},
+	{
+	sound: "cmn-90f40075.flac",
+	hanzi: "药",
+	trans: "medicine",
+	pinyin: "yào"
+	},
+	{
+	sound: "cmn-9190f44a.flac",
+	hanzi: "柜子",
+	trans: "cabinet",
+	pinyin: "Guìzi"
+	},
+	{
+	sound: "cmn-93268067.flac",
+	hanzi: "信",
+	trans: "letter",
+	pinyin: "信"
+	},
+	{
+	sound: "cmn-93cf34bf.flac",
+	hanzi: "上帝",
+	trans: "God",
+	pinyin: "Shàngdì"
+	},
+	{
+	sound: "cmn-944022c7.flac",
+	hanzi: "连衣裙",
+	trans: "dress",
+	pinyin: "liányīqún"
+	},
+	{
+	sound: "cmn-94d6dd46.flac",
+	hanzi: "妈妈",
+	trans: "mom",
+	pinyin: "māmā"
+	},
+	{
+	sound: "cmn-952ccaf2.flac",
+	hanzi: "累",
+	trans: "tired",
+	pinyin: "lèi"
+	},
+	{
+	sound: "cmn-965d3f57.flac",
+	hanzi: "饮料",
+	trans: "Drink",
+	pinyin: "Yǐnliào"
+	},
+	{
+	sound: "cmn-96a28c62.flac",
+	hanzi: "父亲",
+	trans: "father",
+	pinyin: "fùqīn"
+	},
+	{
+	sound: "cmn-9784def6.flac",
+	hanzi: "欢迎！",
+	trans: "welcome!",
+	pinyin: "huānyíng! "
+	},
+	{
+	sound: "cmn-97cc51f5.flac",
+	hanzi: "站",
+	trans: "station",
+	pinyin: "Zhàn"
+	},
+	{
+	sound: "cmn-97fced2b.flac",
+	hanzi: "梯形教室",
+	trans: "Ladder classroom",
+	pinyin: "Tīxíng jiàoshì"
+	},
+	{
+	sound: "cmn-98039e7d.flac",
+	hanzi: "房租",
+	trans: "rent",
+	pinyin: "Fángzū"
+	},
+	{
+	sound: "cmn-981039dd.flac",
+	hanzi: "记者",
+	trans: "reporter",
+	pinyin: "jìzhě"
+	},
+	{
+	sound: "cmn-9857534c.flac",
+	hanzi: "病人",
+	trans: "patient",
+	pinyin: "Bìngrén"
+	},
+	{
+	sound: "cmn-9abff013.flac",
+	hanzi: "一起",
+	trans: "together",
+	pinyin: "yīqǐ"
+	},
+	{
+	sound: "cmn-9ac102fe.flac",
+	hanzi: "到达",
+	trans: "Arrivals",
+	pinyin: "dàodá"
+	},
+	{
+	sound: "cmn-9b1ffec1.flac",
+	hanzi: "污染",
+	trans: "Pollution",
+	pinyin: "wūrǎn"
+	},
+	{
+	sound: "cmn-9dc52bb9.flac",
+	hanzi: "房屋",
+	trans: "houses",
+	pinyin: "fángwū"
+	},
+	{
+	sound: "cmn-9e1f9d83.flac",
+	hanzi: "禁止",
+	trans: "Prohibit",
+	pinyin: "jìnzhǐ"
+	},
+	{
+	sound: "cmn-9e79ff1b.flac",
+	hanzi: "作家",
+	trans: "writer",
+	pinyin: "zuòjiā"
+	},
+	{
+	sound: "cmn-9e91e067.flac",
+	hanzi: "油画",
+	trans: "painting",
+	pinyin: "Yóuhuà"
+	},
+	{
+	sound: "cmn-9e9909d2.flac",
+	hanzi: "海",
+	trans: "sea",
+	pinyin: "hǎi"
+	},
+	{
+	sound: "cmn-9ed6116c.flac",
+	hanzi: "怎样",
+	trans: "how?",
+	pinyin: "Zěnyàng"
+	},
+	{
+	sound: "cmn-9ef30476.flac",
+	hanzi: "什么时候",
+	trans: "When?",
+	pinyin: "Shénme shíhòu? "
+	},
+	{
+	sound: "cmn-9fd72915.flac",
+	hanzi: "被子",
+	trans: "quilt",
+	pinyin: "Bèizi"
+	},
+	{
+	sound: "cmn-a089e4c9.flac",
+	hanzi: "遇见",
+	trans: "meet",
+	pinyin: "Yùjiàn"
+	},
+	{
+	sound: "cmn-a151e7e5.flac",
+	hanzi: "奶酪",
+	trans: "cheese",
+	pinyin: "Nǎilào"
+	},
+	{
+	sound: "cmn-a210614b.flac",
+	hanzi: "晚饭",
+	trans: "dinner",
+	pinyin: "Wǎnfàn"
+	},
+	{
+	sound: "cmn-a21313ba.flac",
+	hanzi: "一秒",
+	trans: "One second",
+	pinyin: "yī miǎo"
+	},
+	{
+	sound: "cmn-a379f8fd.flac",
+	hanzi: "进步",
+	trans: "progress",
+	pinyin: "Jìnbù"
+	},
+	{
+	sound: "cmn-a430e4a3.flac",
+	hanzi: "右边",
+	trans: "right",
+	pinyin: "Yòubiān"
+	},
+	{
+	sound: "cmn-a5149404.flac",
+	hanzi: "你几岁了",
+	trans: "how old are you?",
+	pinyin: "Nǐ jǐ suìle?"
+	},
+	{
+	sound: "cmn-a621f370.flac",
+	hanzi: "周日",
+	trans: "Sunday",
+	pinyin: "Zhōu rì"
+	},
+	{
+	sound: "cmn-a66359bf.flac",
+	hanzi: "钱",
+	trans: "money",
+	pinyin: "qián"
+	},
+	{
+	sound: "cmn-a6ad5c0a.flac",
+	hanzi: "尝试",
+	trans: "try",
+	pinyin: "chángshì"
+	},
+	{
+	sound: "cmn-a7db7df6.flac",
+	hanzi: "一年",
+	trans: "One year",
+	pinyin: "yī nián"
+	},
+	{
+	sound: "cmn-a87906a8.flac",
+	hanzi: "准备好了",
+	trans: "Ready",
+	pinyin: "Zhǔnbèi hǎole"
+	},
+	{
+	sound: "cmn-a9351af9.flac",
+	hanzi: "北",
+	trans: "north",
+	pinyin: "běi"
+	},
+	{
+	sound: "cmn-a93cacb5.flac",
+	hanzi: "值",
+	trans: "value",
+	pinyin: "zhí"
+	},
+	{
+	sound: "cmn-a9432983.flac",
+	hanzi: "不在",
+	trans: "Not in",
+	pinyin: "bùzài"
+	},
+	{
+	sound: "cmn-a9db1498.flac",
+	hanzi: "去",
+	trans: "go with",
+	pinyin: "Qù"
+	},
+	{
+	sound: "cmn-a9f56ce5.flac",
+	hanzi: "建造",
+	trans: "put up",
+	pinyin: "jiànzào"
+	},
+	{
+	sound: "cmn-aa6dfbb5.flac",
+	hanzi: "眼镜",
+	trans: "glasses",
+	pinyin: "yǎnjìng"
+	},
+	{
+	sound: "cmn-aab89f63.flac",
+	hanzi: "金",
+	trans: "gold",
+	pinyin: "jīn"
+	},
+	{
+	sound: "cmn-aae913dc.flac",
+	hanzi: "教堂",
+	trans: "church",
+	pinyin: "Jiàotáng"
+	},
+	{
+	sound: "cmn-abb34ccd.flac",
+	hanzi: "窗户",
+	trans: "window",
+	pinyin: "chuāngkǒu"
+	},
+	{
+	sound: "cmn-ac00f842.flac",
+	hanzi: "太",
+	trans: "too",
+	pinyin: "tài"
+	},
+	{
+	sound: "cmn-ac186eee.flac",
+	hanzi: "战争",
+	trans: "war",
+	pinyin: "zhànzhēng"
+	},
+	{
+	sound: "cmn-ac1fd49d.flac",
+	hanzi: "玻璃杯",
+	trans: "glass",
+	pinyin: "Bōlí bēi"
+	},
+	{
+	sound: "cmn-ac56162a.flac",
+	hanzi: "农业",
+	trans: "agriculture",
+	pinyin: "nóngyè"
+	},
+	{
+	sound: "cmn-ad00c241.flac",
+	hanzi: "早上",
+	trans: "morning",
+	pinyin: "zǎoshang"
+	},
+	{
+	sound: "cmn-addfcb6b.flac",
+	hanzi: "是",
+	trans: "Yes",
+	pinyin: "shì"
+	},
+	{
+	sound: "cmn-ae00b6ac.flac",
+	hanzi: "层",
+	trans: "Floor",
+	pinyin: "Céng"
+	},
+	{
+	sound: "cmn-ae198259.flac",
+	hanzi: "出租车",
+	trans: "taxi",
+	pinyin: "chūzū chē"
+	},
+	{
+	sound: "cmn-aeb6d081.flac",
+	hanzi: "县",
+	trans: "county",
+	pinyin: "xiàn"
+	},
+	{
+	sound: "cmn-afcc0713.flac",
+	hanzi: "买",
+	trans: "buy",
+	pinyin: "Mǎi"
+	},
+	{
+	sound: "cmn-b02e2bb8.flac",
+	hanzi: "南",
+	trans: "south",
+	pinyin: "nán"
+	},
+	{
+	sound: "cmn-b06f5173.flac",
+	hanzi: "蛋",
+	trans: "egg",
+	pinyin: "dàn"
+	},
+	{
+	sound: "cmn-b0c8b193.flac",
+	hanzi: "什么",
+	trans: "what?",
+	pinyin: "shénme? "
+	},
+	{
+	sound: "cmn-b0e54ccd.flac",
+	hanzi: "便宜",
+	trans: "Cheap",
+	pinyin: "Piányí"
+	},
+	{
+	sound: "cmn-b140f6c8.flac",
+	hanzi: "星期天",
+	trans: "Sunday",
+	pinyin: "Xīngqítiān"
+	},
+	{
+	sound: "cmn-b142f5a0.flac",
+	hanzi: "爷爷",
+	trans: "grandfather",
+	pinyin: "Yéyé"
+	},
+	{
+	sound: "cmn-b14f61d6.flac",
+	hanzi: "蝴蝶",
+	trans: "butterfly",
+	pinyin: "húdié"
+	},
+	{
+	sound: "cmn-b1beabae.flac",
+	hanzi: "飞机",
+	trans: "aircraft",
+	pinyin: "fēijī"
+	},
+	{
+	sound: "cmn-b220bede.flac",
+	hanzi: "名",
+	trans: "name",
+	pinyin: "Míng"
+	},
+	{
+	sound: "cmn-b249b77e.flac",
+	hanzi: "危险",
+	trans: "Danger",
+	pinyin: "wéixiǎn"
+	},
+	{
+	sound: "cmn-b2579267.flac",
+	hanzi: "结婚",
+	trans: "marry",
+	pinyin: "Jiéhūn"
+	},
+	{
+	sound: "cmn-b2b320a7.flac",
+	hanzi: "儿子",
+	trans: "son",
+	pinyin: "érzi"
+	},
+	{
+	sound: "cmn-b31e932c.flac",
+	hanzi: "艺术",
+	trans: "art",
+	pinyin: "yìshù"
+	},
+	{
+	sound: "cmn-b374eea1.flac",
+	hanzi: "婴儿",
+	trans: "baby",
+	pinyin: "Yīng'ér"
+	},
+	{
+	sound: "cmn-b452d568.flac",
+	hanzi: "少年",
+	trans: "juvenile",
+	pinyin: "shàonián"
+	},
+	{
+	sound: "cmn-b462df74.flac",
+	hanzi: "写",
+	trans: "write",
+	pinyin: "xiě"
+	},
+	{
+	sound: "cmn-b46c727d.flac",
+	hanzi: "工人",
+	trans: "worker",
+	pinyin: "gōngrén"
+	},
+	{
+	sound: "cmn-b4797b26.flac",
+	hanzi: "电话",
+	trans: "phone",
+	pinyin: "diànhuà"
+	},
+	{
+	sound: "cmn-b4960277.flac",
+	hanzi: "黄",
+	trans: "yellow",
+	pinyin: "huáng"
+	},
+	{
+	sound: "cmn-b4b24c83.flac",
+	hanzi: "商业",
+	trans: "business",
+	pinyin: "shāngyè"
+	},
+	{
+	sound: "cmn-b4de9a6a.flac",
+	hanzi: "果酱",
+	trans: "jam",
+	pinyin: "guǒjiàng"
+	},
+	{
+	sound: "cmn-b545b5e9.flac",
+	hanzi: "学校",
+	trans: "school",
+	pinyin: "xuéxiào"
+	},
+	{
+	sound: "cmn-b55dde0c.flac",
+	hanzi: "路",
+	trans: "road",
+	pinyin: "lù"
+	},
+	{
+	sound: "cmn-b5919f86.flac",
+	hanzi: "他们",
+	trans: "they",
+	pinyin: "tāmen"
+	},
+	{
+	sound: "cmn-b6e5649f.flac",
+	hanzi: "幸会！",
+	trans: "Fortunately!",
+	pinyin: "Xìng huì! "
+	},
+	{
+	sound: "cmn-b7fb4495.flac",
+	hanzi: "音乐",
+	trans: "music",
+	pinyin: "Yīnyuè"
+	},
+	{
+	sound: "cmn-ba1505b1.flac",
+	hanzi: "灰",
+	trans: "gray",
+	pinyin: "huī"
+	},
+	{
+	sound: "cmn-ba3411b9.flac",
+	hanzi: "新闻界",
+	trans: "press",
+	pinyin: "Xīnwén jiè"
+	},
+	{
+	sound: "cmn-ba53df5c.flac",
+	hanzi: "天空",
+	trans: "sky",
+	pinyin: "tiānkōng"
+	},
+	{
+	sound: "cmn-badeae18.flac",
+	hanzi: "衣服",
+	trans: "clothes",
+	pinyin: "yīfú"
+	},
+	{
+	sound: "cmn-bae652ce.flac",
+	hanzi: "忙",
+	trans: "busy",
+	pinyin: "máng"
+	},
+	{
+	sound: "cmn-bb077fb7.flac",
+	hanzi: "帮助",
+	trans: "help",
+	pinyin: "Bāngzhù"
+	},
+	{
+	sound: "cmn-bb85207c.flac",
+	hanzi: "自然",
+	trans: "natural",
+	pinyin: "zìrán"
+	},
+	{
+	sound: "cmn-bbcb0136.flac",
+	hanzi: "食物",
+	trans: "food",
+	pinyin: "Shíwù"
+	},
+	{
+	sound: "cmn-bc0ba076.flac",
+	hanzi: "源",
+	trans: "source",
+	pinyin: "Yuán"
+	},
+	{
+	sound: "cmn-bcb51c12.flac",
+	hanzi: "很少",
+	trans: "Rarely",
+	pinyin: "hěn shǎo"
+	},
+	{
+	sound: "cmn-bce549af.flac",
+	hanzi: "近",
+	trans: "near",
+	pinyin: "jìn"
+	},
+	{
+	sound: "cmn-bcec185b.flac",
+	hanzi: "洗",
+	trans: "wash",
+	pinyin: "xǐ"
+	},
+	{
+	sound: "cmn-bd238fb9.flac",
+	hanzi: "说",
+	trans: "Say",
+	pinyin: "shuō"
+	},
+	{
+	sound: "cmn-bd343037.flac",
+	hanzi: "工业",
+	trans: "industry",
+	pinyin: "Gōngyè"
+	},
+	{
+	sound: "cmn-bd35add6.flac",
+	hanzi: "不客气",
+	trans: "You're welcome",
+	pinyin: "bié kèqì"
+	},
+	{
+	sound: "cmn-bdea0ec9.flac",
+	hanzi: "商人",
+	trans: "businessman",
+	pinyin: "shāngrén"
+	},
+	{
+	sound: "cmn-be54eb10.flac",
+	hanzi: "新",
+	trans: "new",
+	pinyin: "xīn"
+	},
+	{
+	sound: "cmn-bec84800.flac",
+	hanzi: "爱情",
+	trans: "love",
+	pinyin: "Àiqíng"
+	},
+	{
+	sound: "cmn-becdf535.flac",
+	hanzi: "早餐",
+	trans: "breakfast",
+	pinyin: "zǎocān"
+	},
+	{
+	sound: "cmn-bf6f8597.flac",
+	hanzi: "大蒜",
+	trans: "garlic",
+	pinyin: "dàsuàn"
+	},
+	{
+	sound: "cmn-bf7f053a.flac",
+	hanzi: "门",
+	trans: "door",
+	pinyin: "mén"
+	},
+	{
+	sound: "cmn-bfd1492e.flac",
+	hanzi: "背包",
+	trans: "backpack",
+	pinyin: "bèibāo"
+	},
+	{
+	sound: "cmn-c0413511.flac",
+	hanzi: "机器",
+	trans: "machine",
+	pinyin: "Jīqì"
+	},
+	{
+	sound: "cmn-c1661fb6.flac",
+	hanzi: "总统",
+	trans: "president",
+	pinyin: "zǒngtǒng"
+	},
+	{
+	sound: "cmn-c19d8361.flac",
+	hanzi: "毛巾",
+	trans: "towel",
+	pinyin: "máojīn"
+	},
+	{
+	sound: "cmn-c2000967.flac",
+	hanzi: "节日",
+	trans: "festival",
+	pinyin: "Jiérì"
+	},
+	{
+	sound: "cmn-c2050caa.flac",
+	hanzi: "手",
+	trans: "hand",
+	pinyin: "shǒu"
+	},
+	{
+	sound: "cmn-c2543512.flac",
+	hanzi: "远",
+	trans: "far",
+	pinyin: "yuǎn"
+	},
+	{
+	sound: "cmn-c3247291.flac",
+	hanzi: "早",
+	trans: "early",
+	pinyin: "zǎo"
+	},
+	{
+	sound: "cmn-c3ecb5d3.flac",
+	hanzi: "公路",
+	trans: "highway",
+	pinyin: "gōnglù"
+	},
+	{
+	sound: "cmn-c3f19193.flac",
+	hanzi: "边境",
+	trans: "border",
+	pinyin: "biānjìng"
+	},
+	{
+	sound: "cmn-c4403001.flac",
+	hanzi: "上面",
+	trans: "Above",
+	pinyin: "Shàngmiàn"
+	},
+	{
+	sound: "cmn-c482d6af.flac",
+	hanzi: "舌头",
+	trans: "tongue",
+	pinyin: "Shétou"
+	},
+	{
+	sound: "cmn-c4d84efb.flac",
+	hanzi: "巧克力",
+	trans: "chocolate",
+	pinyin: "qiǎokèlì"
+	},
+	{
+	sound: "cmn-c539f10b.flac",
+	hanzi: "还",
+	trans: "also",
+	pinyin: "Hái"
+	},
+	{
+	sound: "cmn-c5619947.flac",
+	hanzi: "肉",
+	trans: "meat",
+	pinyin: "ròu"
+	},
+	{
+	sound: "cmn-c6681ef0.flac",
+	hanzi: "咖啡",
+	trans: "coffee",
+	pinyin: "kāfēi"
+	},
+	{
+	sound: "cmn-c695dfbe.flac",
+	hanzi: "假的",
+	trans: "fake",
+	pinyin: "Jiǎ de"
+	},
+	{
+	sound: "cmn-c7291b2e.flac",
+	hanzi: "卖",
+	trans: "Sell",
+	pinyin: "mài"
+	},
+	{
+	sound: "cmn-c72adf2d.flac",
+	hanzi: "森林",
+	trans: "forest",
+	pinyin: "sēnlín"
+	},
+	{
+	sound: "cmn-c73de59d.flac",
+	hanzi: "周二",
+	trans: "Tuesday",
+	pinyin: "Zhōu'èr"
+	},
+	{
+	sound: "cmn-c791a68b.flac",
+	hanzi: "庙",
+	trans: "temple",
+	pinyin: "miào"
+	},
+	{
+	sound: "cmn-c79c0cb2.flac",
+	hanzi: "谢谢",
+	trans: "Thank you",
+	pinyin: "xièxiè"
+	},
+	{
+	sound: "cmn-c7b89ccd.flac",
+	hanzi: "烟灰缸",
+	trans: "ashtray",
+	pinyin: "yānhuī gāng"
+	},
+	{
+	sound: "cmn-c7d47061.flac",
+	hanzi: "鼠",
+	trans: "mouse",
+	pinyin: "Shǔ"
+	},
+	{
+	sound: "cmn-c888448e.flac",
+	hanzi: "云",
+	trans: "cloud",
+	pinyin: "yún"
+	},
+	{
+	sound: "cmn-c99e3a0d.flac",
+	hanzi: "喜欢",
+	trans: "like",
+	pinyin: "xǐhuān"
+	},
+	{
+	sound: "cmn-c9aafb50.flac",
+	hanzi: "小",
+	trans: "small",
+	pinyin: "xiǎo"
+	},
+	{
+	sound: "cmn-c9b31f8e.flac",
+	hanzi: "周四",
+	trans: "Thursday",
+	pinyin: "Zhōu sī"
+	},
+	{
+	sound: "cmn-c9c59b38.flac",
+	hanzi: "市场",
+	trans: "market",
+	pinyin: "shìchǎng"
+	},
+	{
+	sound: "cmn-ca8a6a8f.flac",
+	hanzi: "粉红",
+	trans: "Pink",
+	pinyin: "Fěnhóng"
+	},
+	{
+	sound: "cmn-cad42298.flac",
+	hanzi: "电视机",
+	trans: "TV set",
+	pinyin: "diànshì jī"
+	},
+	{
+	sound: "cmn-cb00388f.flac",
+	hanzi: "哪里",
+	trans: "where?",
+	pinyin: "nǎlǐ? "
+	},
+	{
+	sound: "cmn-cbbfca64.flac",
+	hanzi: "电脑",
+	trans: "computer",
+	pinyin: "Diànnǎo"
+	},
+	{
+	sound: "cmn-cbdd1a65.flac",
+	hanzi: "帐单",
+	trans: "bill",
+	pinyin: "Zhàng dān"
+	},
+	{
+	sound: "cmn-cc01da5e.flac",
+	hanzi: "班级",
+	trans: "class",
+	pinyin: "Bānjí"
+	},
+	{
+	sound: "cmn-cc411d96.flac",
+	hanzi: "少女",
+	trans: "Young girl",
+	pinyin: "shàonǚ"
+	},
+	{
+	sound: "cmn-cc6bbd58.flac",
+	hanzi: "月亮",
+	trans: "moon",
+	pinyin: "yuèliàng"
+	},
+	{
+	sound: "cmn-cc915941.flac",
+	hanzi: "地板",
+	trans: "floor",
+	pinyin: "dìbǎn"
+	},
+	{
+	sound: "cmn-cd42829c.flac",
+	hanzi: "国王",
+	trans: "king",
+	pinyin: "Guówáng"
+	},
+	{
+	sound: "cmn-cecc3182.flac",
+	hanzi: "学生",
+	trans: "student",
+	pinyin: "xuéshēng"
+	},
+	{
+	sound: "cmn-cf40642c.flac",
+	hanzi: "江",
+	trans: "River",
+	pinyin: "Jiāng"
+	},
+	{
+	sound: "cmn-cf626c9c.flac",
+	hanzi: "笔直",
+	trans: "Straight",
+	pinyin: "Bǐzhí"
+	},
+	{
+	sound: "cmn-cf806469.flac",
+	hanzi: "老师",
+	trans: "teacher",
+	pinyin: "lǎoshī"
+	},
+	{
+	sound: "cmn-d01ebebb.flac",
+	hanzi: "西",
+	trans: "Western",
+	pinyin: "Xī"
+	},
+	{
+	sound: "cmn-d0abdf37.flac",
+	hanzi: "饼干",
+	trans: "Cookies",
+	pinyin: "bǐnggān"
+	},
+	{
+	sound: "cmn-d0f3cb2b.flac",
+	hanzi: "农村",
+	trans: "Rural area",
+	pinyin: "Nóngcūn"
+	},
+	{
+	sound: "cmn-d1060a43.flac",
+	hanzi: "蜜蜂",
+	trans: "bee",
+	pinyin: "mìfēng"
+	},
+	{
+	sound: "cmn-d1879a9d.flac",
+	hanzi: "拿",
+	trans: "take",
+	pinyin: "Ná"
+	},
+	{
+	sound: "cmn-d18d0a8c.flac",
+	hanzi: "锅",
+	trans: "pot",
+	pinyin: "guō"
+	},
+	{
+	sound: "cmn-d1b6f4e4.flac",
+	hanzi: "哪一个",
+	trans: "Which one?",
+	pinyin: "Nǎ yīgè?"
+	},
+	{
+	sound: "cmn-d23e74ed.flac",
+	hanzi: "昨天",
+	trans: "yesterday",
+	pinyin: "Zuótiān"
+	},
+	{
+	sound: "cmn-d248b5c8.flac",
+	hanzi: "周六",
+	trans: "Saturday",
+	pinyin: "zhōu liù"
+	},
+	{
+	sound: "cmn-d26278e9.flac",
+	hanzi: "啤酒",
+	trans: "beer",
+	pinyin: "píjiǔ"
+	},
+	{
+	sound: "cmn-d2a5a3d3.flac",
+	hanzi: "年轻",
+	trans: "young",
+	pinyin: "niánqīng"
+	},
+	{
+	sound: "cmn-d2b184ff.flac",
+	hanzi: "大",
+	trans: "Big",
+	pinyin: "dà"
+	},
+	{
+	sound: "cmn-d37a8023.flac",
+	hanzi: "可能",
+	trans: "may",
+	pinyin: "kěnéng"
+	},
+	{
+	sound: "cmn-d37d4a1f.flac",
+	hanzi: "总理",
+	trans: "Prime Minister",
+	pinyin: "zǒnglǐ"
+	},
+	{
+	sound: "cmn-d4782469.flac",
+	hanzi: "我来自中国",
+	trans: "I come from China",
+	pinyin: "Wǒ láizì zhōngguó"
+	},
+	{
+	sound: "cmn-d4bf85f3.flac",
+	hanzi: "鸡",
+	trans: "Chickens",
+	pinyin: "jī"
+	},
+	{
+	sound: "cmn-d51a2e2b.flac",
+	hanzi: "小麦",
+	trans: "wheat",
+	pinyin: "xiǎomài"
+	},
+	{
+	sound: "cmn-d53c950f.flac",
+	hanzi: "宽",
+	trans: "width",
+	pinyin: "kuān"
+	},
+	{
+	sound: "cmn-d6094a88.flac",
+	hanzi: "留",
+	trans: "stay",
+	pinyin: "liú"
+	},
+	{
+	sound: "cmn-d617d273.flac",
+	hanzi: "你",
+	trans: "you",
+	pinyin: "Nǐ"
+	},
+	{
+	sound: "cmn-d655d467.flac",
+	hanzi: "未婚妻",
+	trans: "fiancée",
+	pinyin: "wèihūnqī"
+	},
+	{
+	sound: "cmn-d6587330.flac",
+	hanzi: "风",
+	trans: "wind",
+	pinyin: "fēng"
+	},
+	{
+	sound: "cmn-d6636e3e.flac",
+	hanzi: "猪肉",
+	trans: "pork",
+	pinyin: "zhūròu"
+	},
+	{
+	sound: "cmn-d69afe2e.flac",
+	hanzi: "我不能",
+	trans: "I can not",
+	pinyin: "wǒ bùnéng"
+	},
+	{
+	sound: "cmn-d69fe0cb.flac",
+	hanzi: "报刊杂志",
+	trans: "Newspapers and magazines",
+	pinyin: "Bàokān zázhì"
+	},
+	{
+	sound: "cmn-d6b55b0c.flac",
+	hanzi: "河",
+	trans: "River",
+	pinyin: "hé"
+	},
+	{
+	sound: "cmn-d78892c0.flac",
+	hanzi: "读书",
+	trans: "reading",
+	pinyin: "Dúshū"
+	},
+	{
+	sound: "cmn-d8282389.flac",
+	hanzi: "姓",
+	trans: "name",
+	pinyin: "Xìng"
+	},
+	{
+	sound: "cmn-d8a08338.flac",
+	hanzi: "剪刀",
+	trans: "scissors",
+	pinyin: "jiǎndāo"
+	},
+	{
+	sound: "cmn-d8b561c4.flac",
+	hanzi: "一星期",
+	trans: "A week",
+	pinyin: "Yī xīngqí"
+	},
+	{
+	sound: "cmn-d94be69c.flac",
+	hanzi: "黑",
+	trans: "black",
+	pinyin: "hēi"
+	},
+	{
+	sound: "cmn-d958f533.flac",
+	hanzi: "工会",
+	trans: "union",
+	pinyin: "Gōnghuì"
+	},
+	{
+	sound: "cmn-d99538c7.flac",
+	hanzi: "厕所",
+	trans: "toilet",
+	pinyin: "cèsuǒ"
+	},
+	{
+	sound: "cmn-da0de704.flac",
+	hanzi: "人民",
+	trans: "people",
+	pinyin: "Rénmín"
+	},
+	{
+	sound: "cmn-daaf8d73.flac",
+	hanzi: "出口",
+	trans: "Export",
+	pinyin: "chūkǒu"
+	},
+	{
+	sound: "cmn-dad564d4.flac",
+	hanzi: "银行",
+	trans: "bank",
+	pinyin: "yínháng"
+	},
+	{
+	sound: "cmn-db177a01.flac",
+	hanzi: "马铃薯",
+	trans: "potato",
+	pinyin: "Mǎlíngshǔ"
+	},
+	{
+	sound: "cmn-db3ebedc.flac",
+	hanzi: "女人",
+	trans: "woman",
+	pinyin: "nǚrén"
+	},
+	{
+	sound: "cmn-db4284cc.flac",
+	hanzi: "鼻子",
+	trans: "nose",
+	pinyin: "bízi"
+	},
+	{
+	sound: "cmn-dc21e617.flac",
+	hanzi: "等",
+	trans: "Wait",
+	pinyin: "děng"
+	},
+	{
+	sound: "cmn-dc7a3d3a.flac",
+	hanzi: "外公",
+	trans: "Grandpa",
+	pinyin: "Wàigōng"
+	},
+	{
+	sound: "cmn-dcb76ded.flac",
+	hanzi: "军队",
+	trans: "army",
+	pinyin: "jūnduì"
+	},
+	{
+	sound: "cmn-dd0d7f8b.flac",
+	hanzi: "洋葱",
+	trans: "onion",
+	pinyin: "yángcōng"
+	},
+	{
+	sound: "cmn-dd0e43a4.flac",
+	hanzi: "给",
+	trans: "give",
+	pinyin: "gěi"
+	},
+	{
+	sound: "cmn-de67c1ff.flac",
+	hanzi: "足够",
+	trans: "enough",
+	pinyin: "zúgòu"
+	},
+	{
+	sound: "cmn-de7076f9.flac",
+	hanzi: "牛",
+	trans: "Cattle",
+	pinyin: "niú"
+	},
+	{
+	sound: "cmn-def37430.flac",
+	hanzi: "肥皂",
+	trans: "soap bar",
+	pinyin: "féizào"
+	},
+	{
+	sound: "cmn-df98a532.flac",
+	hanzi: "桌子",
+	trans: "table",
+	pinyin: "Zhuōzi"
+	},
+	{
+	sound: "cmn-e0324d2a.flac",
+	hanzi: "前额",
+	trans: "forehead",
+	pinyin: "qián'é"
+	},
+	{
+	sound: "cmn-e0369842.flac",
+	hanzi: "钥匙",
+	trans: "key",
+	pinyin: "Yàoshi"
+	},
+	{
+	sound: "cmn-e1464daf.flac",
+	hanzi: "岛",
+	trans: "island",
+	pinyin: "dǎo"
+	},
+	{
+	sound: "cmn-e1677cc4.flac",
+	hanzi: "房间",
+	trans: "room",
+	pinyin: "fángjiān"
+	},
+	{
+	sound: "cmn-e269671a.flac",
+	hanzi: "对不起！",
+	trans: "Sorry!",
+	pinyin: "Duìbùqǐ!"
+	},
+	{
+	sound: "cmn-e2773e09.flac",
+	hanzi: "晚",
+	trans: "late",
+	pinyin: "Wǎn"
+	},
+	{
+	sound: "cmn-e2dbe54e.flac",
+	hanzi: "餐馆",
+	trans: "restaurant",
+	pinyin: "Cānguǎn"
+	},
+	{
+	sound: "cmn-e3188fc0.flac",
+	hanzi: "想起",
+	trans: "Remember",
+	pinyin: "Xiǎngqǐ"
+	},
+	{
+	sound: "cmn-e3631c1b.flac",
+	hanzi: "晚餐",
+	trans: "dinner",
+	pinyin: "wǎncān"
+	},
+	{
+	sound: "cmn-e3c94841.flac",
+	hanzi: "你好吗",
+	trans: "How are you?",
+	pinyin: "nǐ hǎo ma? "
+	},
+	{
+	sound: "cmn-e47af612.flac",
+	hanzi: "单独的",
+	trans: "alone",
+	pinyin: "Dāndú de"
+	},
+	{
+	sound: "cmn-e49f7587.flac",
+	hanzi: "下午",
+	trans: "in the afternoon",
+	pinyin: "xiàwǔ"
+	},
+	{
+	sound: "cmn-e4e4c91d.flac",
+	hanzi: "这多少钱",
+	trans: "how much is this?",
+	pinyin: "Zhè duōshǎo qián?"
+	},
+	{
+	sound: "cmn-e54b9f27.flac",
+	hanzi: "西红柿",
+	trans: "tomato",
+	pinyin: "Xīhóngshì"
+	},
+	{
+	sound: "cmn-e57e29d1.flac",
+	hanzi: "健康",
+	trans: "health",
+	pinyin: "jiànkāng"
+	},
+	{
+	sound: "cmn-e5f05850.flac",
+	hanzi: "狗",
+	trans: "dog",
+	pinyin: "gǒu"
+	},
+	{
+	sound: "cmn-e649ca73.flac",
+	hanzi: "舞蹈",
+	trans: "dance",
+	pinyin: "wǔdǎo"
+	},
+	{
+	sound: "cmn-e667bbaf.flac",
+	hanzi: "教室",
+	trans: "classroom",
+	pinyin: "Jiàoshì"
+	},
+	{
+	sound: "cmn-e6f49383.flac",
+	hanzi: "环境",
+	trans: "surroundings",
+	pinyin: "huánjìng"
+	},
+	{
+	sound: "cmn-e746b4c3.flac",
+	hanzi: "胡椒粉",
+	trans: "pepper",
+	pinyin: "Hújiāo fěn"
+	},
+	{
+	sound: "cmn-e79ae6d8.flac",
+	hanzi: "祖父",
+	trans: "grandfather",
+	pinyin: "zǔfù"
+	},
+	{
+	sound: "cmn-e980a1bf.flac",
+	hanzi: "坏",
+	trans: "Bad",
+	pinyin: "huài"
+	},
+	{
+	sound: "cmn-ea554c69.flac",
+	hanzi: "高",
+	trans: "high",
+	pinyin: "gāo"
+	},
+	{
+	sound: "cmn-eaac1d5e.flac",
+	hanzi: "你好！",
+	trans: "Hello there!",
+	pinyin: "nǐ hǎo! "
+	},
+	{
+	sound: "cmn-eb015e2b.flac",
+	hanzi: "翻译",
+	trans: "translation",
+	pinyin: "Fānyì"
+	},
+	{
+	sound: "cmn-eb250bea.flac",
+	hanzi: "热",
+	trans: "heat",
+	pinyin: "rè"
+	},
+	{
+	sound: "cmn-eb533b19.flac",
+	hanzi: "女儿",
+	trans: "daughter",
+	pinyin: "nǚ'ér"
+	},
+	{
+	sound: "cmn-eb87e2a7.flac",
+	hanzi: "帘子",
+	trans: "curtain",
+	pinyin: "Liánzi"
+	},
+	{
+	sound: "cmn-ebb06b65.flac",
+	hanzi: "面包",
+	trans: "bread",
+	pinyin: "miànbāo"
+	},
+	{
+	sound: "cmn-ebc61fe6.flac",
+	hanzi: "杏",
+	trans: "apricot",
+	pinyin: "xìng"
+	},
+	{
+	sound: "cmn-ebdf38e6.flac",
+	hanzi: "革命",
+	trans: "revolution",
+	pinyin: "gémìng"
+	},
+	{
+	sound: "cmn-ec5b4d65.flac",
+	hanzi: "州",
+	trans: "State",
+	pinyin: "zhōu"
+	},
+	{
+	sound: "cmn-ecd28e49.flac",
+	hanzi: "你说法语吗",
+	trans: "Do you speak chinese?",
+	pinyin: "Nǐ shuō zhōngwén ma?"
+	},
+	{
+	sound: "cmn-ed8499f4.flac",
+	hanzi: "茶",
+	trans: "tea",
+	pinyin: "Chá"
+	},
+	{
+	sound: "cmn-eda1b46a.flac",
+	hanzi: "难看",
+	trans: "Ugly",
+	pinyin: "Nánkàn"
+	},
+	{
+	sound: "cmn-ee878f13.flac",
+	hanzi: "一周",
+	trans: "A week",
+	pinyin: "yīzhōu"
+	},
+	{
+	sound: "cmn-ef8a7008.flac",
+	hanzi: "地图",
+	trans: "map",
+	pinyin: "dìtú"
+	},
+	{
+	sound: "cmn-ef91cd5b.flac",
+	hanzi: "你们",
+	trans: "you guys",
+	pinyin: "nǐmen"
+	},
+	{
+	sound: "cmn-efeea5b1.flac",
+	hanzi: "进口",
+	trans: "import",
+	pinyin: "jìnkǒu"
+	},
+	{
+	sound: "cmn-f03e7445.flac",
+	hanzi: "病",
+	trans: "disease",
+	pinyin: "Bìng"
+	},
+	{
+	sound: "cmn-f0ae2b6f.flac",
+	hanzi: "晚上",
+	trans: "at night",
+	pinyin: "wǎnshàng"
+	},
+	{
+	sound: "cmn-f0d991c4.flac",
+	hanzi: "农民",
+	trans: "Farmer",
+	pinyin: "nóngmín"
+	},
+	{
+	sound: "cmn-f1d7bf08.flac",
+	hanzi: "房子",
+	trans: "house",
+	pinyin: "Fángzi"
+	},
+	{
+	sound: "cmn-f22be90d.flac",
+	hanzi: "袜子",
+	trans: "sock",
+	pinyin: "wàzi"
+	},
+	{
+	sound: "cmn-f2f18e7b.flac",
+	hanzi: "职业",
+	trans: "Profession",
+	pinyin: "Zhíyè"
+	},
+	{
+	sound: "cmn-f37ec73e.flac",
+	hanzi: "皮肤",
+	trans: "skin",
+	pinyin: "pífū"
+	},
+	{
+	sound: "cmn-f421ebd5.flac",
+	hanzi: "手帕",
+	trans: "handkerchief",
+	pinyin: "shǒupà"
+	},
+	{
+	sound: "cmn-f43c863b.flac",
+	hanzi: "外币兑换处",
+	trans: "Foreign currency exchange",
+	pinyin: "wàibì duìhuàn chǔ"
+	},
+	{
+	sound: "cmn-f4ce910d.flac",
+	hanzi: "满",
+	trans: "full",
+	pinyin: "Mǎn"
+	},
+	{
+	sound: "cmn-f4d0f462.flac",
+	hanzi: "冰箱",
+	trans: "refrigerator",
+	pinyin: "bīngxiāng"
+	},
+	{
+	sound: "cmn-f5a0a9cd.flac",
+	hanzi: "开",
+	trans: "open",
+	pinyin: "kāi"
+	},
+	{
+	sound: "cmn-f5a77129.flac",
+	hanzi: "股市",
+	trans: "stock market",
+	pinyin: "gǔshì"
+	},
+	{
+	sound: "cmn-f6201037.flac",
+	hanzi: "平底锅",
+	trans: "Saucepan",
+	pinyin: "píngdǐ guō"
+	},
+	{
+	sound: "cmn-f6269381.flac",
+	hanzi: "外国的",
+	trans: "foreign",
+	pinyin: "Wàiguó de"
+	},
+	{
+	sound: "cmn-f64ec914.flac",
+	hanzi: "眼睛",
+	trans: "eye",
+	pinyin: "Yǎnjīng"
+	},
+	{
+	sound: "cmn-f68df445.flac",
+	hanzi: "电影",
+	trans: "the film",
+	pinyin: "diànyǐng"
+	},
+	{
+	sound: "cmn-f7b919cd.flac",
+	hanzi: "再见！",
+	trans: "Goodbye!",
+	pinyin: "zàijiàn! "
+	},
+	{
+	sound: "cmn-f895308f.flac",
+	hanzi: "裙子",
+	trans: "skirt",
+	pinyin: "Qúnzi"
+	},
+	{
+	sound: "cmn-f8e02128.flac",
+	hanzi: "兔子",
+	trans: "rabbit",
+	pinyin: "tùzǐ"
+	},
+	{
+	sound: "cmn-f923075d.flac",
+	hanzi: "唱",
+	trans: "sing",
+	pinyin: "chàng"
+	},
+	{
+	sound: "cmn-f9503eeb.flac",
+	hanzi: "红酒",
+	trans: "Red wine",
+	pinyin: "hóngjiǔ"
+	},
+	{
+	sound: "cmn-f98c73f7.flac",
+	hanzi: "老",
+	trans: "old",
+	pinyin: "Lǎo"
+	},
+	{
+	sound: "cmn-f9cd093c.flac",
+	hanzi: "喝",
+	trans: "drink",
+	pinyin: "hē"
+	},
+	{
+	sound: "cmn-f9d4a681.flac",
+	hanzi: "未婚夫",
+	trans: "fiancé",
+	pinyin: "wèihūnfū"
+	},
+	{
+	sound: "cmn-f9d7da5e.flac",
+	hanzi: "马",
+	trans: "horse",
+	pinyin: "mǎ"
+	},
+	{
+	sound: "cmn-fa8457b4.flac",
+	hanzi: "樱桃",
+	trans: "Cherry",
+	pinyin: "yīngtáo"
+	},
+	{
+	sound: "cmn-fabe260c.flac",
+	hanzi: "丑",
+	trans: "ugly",
+	pinyin: "chǒu"
+	},
+	{
+	sound: "cmn-fad410f3.flac",
+	hanzi: "裤子",
+	trans: "pants",
+	pinyin: "kùzi"
+	},
+	{
+	sound: "cmn-fb201a71.flac",
+	hanzi: "开始",
+	trans: "Start",
+	pinyin: "kāishǐ"
+	},
+	{
+	sound: "cmn-fba96a2c.flac",
+	hanzi: "芥末",
+	trans: "mustard",
+	pinyin: "jièmò"
+	},
+	{
+	sound: "cmn-fc4d41ba.flac",
+	hanzi: "天花板",
+	trans: "ceiling",
+	pinyin: "tiānhuābǎn"
+	},
+	{
+	sound: "cmn-fc5a62f8.flac",
+	hanzi: "米",
+	trans: "Meter",
+	pinyin: "Mǐ"
+	},
+	{
+	sound: "cmn-fc9097da.flac",
+	hanzi: "婚礼",
+	trans: "wedding",
+	pinyin: "hūnlǐ"
+	},
+	{
+	sound: "cmn-fcbdcb34.flac",
+	hanzi: "周一",
+	trans: "on Monday",
+	pinyin: "Zhōuyī"
+	},
+	{
+	sound: "cmn-fd62cd9a.flac",
+	hanzi: "大衣",
+	trans: "Overcoat",
+	pinyin: "Dàyī"
+	},
+	{
+	sound: "cmn-fd819bd7.flac",
+	hanzi: "主席",
+	trans: "Chairman",
+	pinyin: "zhǔxí"
+	},
+	{
+	sound: "cmn-fdc42b1a.flac",
+	hanzi: "雪",
+	trans: "snow",
+	pinyin: "xuě"
+	},
+	{
+	sound: "cmn-fdf8b2bf.flac",
+	hanzi: "听见",
+	trans: "hear",
+	pinyin: "Tīngjiàn"
+	},
+	{
+	sound: "cmn-fe05ce26.flac",
+	hanzi: "难",
+	trans: "difficult",
+	pinyin: "nán"
+	},
+	{
+	sound: "cmn-fe49ae80.flac",
+	hanzi: "听",
+	trans: "listen",
+	pinyin: "tīng"
+	},
+	{
+	sound: "cmn-ff2f7e4e.flac",
+	hanzi: "愿意",
+	trans: "willing",
+	pinyin: "yuànyì"
+	},
+	{
+	sound: "cmn-ffbe8865.flac",
+	hanzi: "早饭",
+	trans: "breakfast",
+	pinyin: "Zǎofàn"
+	}
+]
